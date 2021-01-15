@@ -101,7 +101,7 @@ htmlcov
 *.tfstate.backup
 .terraform/
 terraform.log
-
+.terraform.lock.hcl
 
 # Templated module MD
 MAIN.md
@@ -109,6 +109,3 @@ MAIN.md
 # tardigrade-ci
 .tardigrade-ci
 tardigrade-ci/
-
-# eclint
-.git/
